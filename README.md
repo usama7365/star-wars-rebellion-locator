@@ -7,6 +7,7 @@ The Star Wars Entity Map application displays a map with marked locations from t
 
 React/Node.js and npm (Node Package Manager)
 Backend server running (See API Endpoints section for more details)
+
 Installation
 Clone the repository:
 
