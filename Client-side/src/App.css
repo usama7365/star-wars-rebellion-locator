@@ -1,3 +1,47 @@
-.leaflet-bottom {
-  display: none !important;
+.App {
+  transition: background-color 0.3s;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+.icon {
+  transition: color 0.3s, transform 0.3s;
+}
+
+.dark-mode .icon {
+  color: #ffffff;
+  transform: rotate(180deg);
+}
+
+.light-mode .icon {
+  color: #ffe100;
+  transform: rotate(0deg);
+}
+
+.mode-toggle-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+}
+
+.dark-mode .mode-toggle-btn {
+  background-color: #333;
+}
+
+.light-mode .mode-toggle-btn {
+  background-color: #fff;
 }
