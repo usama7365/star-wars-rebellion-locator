@@ -1,3 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.leaflet-bottom {
+display: none;
+}
 .App {
   transition: background-color 0.3s;
 }
@@ -45,3 +55,12 @@
 .light-mode .mode-toggle-btn {
   background-color: #fff;
 }
+.pb-4 {
+  width: 20px;
+  padding-bottom: 1.5rem!important;
+}
+
+/* Mobile Responsive  (if you can use Tailwind css ) 
+The interactivity  click fucntionality using APIs 
+Redux and  Test driven aprroach 
+make the maps look good middle  for example */
