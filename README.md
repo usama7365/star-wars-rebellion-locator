@@ -1,8 +1,8 @@
-Star Wars Entity Map
+## Star Wars Entity Map
 Star Wars Entity Map is a web application that allows users to explore locations from the Star Wars universe and view details
 about the entities associated with those locations.
 
-Usage
+## Usage
 The Star Wars Entity Map application displays a map with marked locations from the Star Wars universe. Clicking on a location marker will show details about the associated entity.
 
 React/Node.js and npm (Node Package Manager)
@@ -31,7 +31,7 @@ npm install (If needed)
 
 npm start 
 
-API Endpoints
+## API Endpoints
 GET /api/secret: Fetches the list of locations with their coordinates.
 GET /api/entities/:id: Fetches details about an entity based on its ID.
 Open your browser and navigate to http://localhost:3000 to view the application.
