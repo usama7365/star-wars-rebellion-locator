@@ -36,7 +36,5 @@ GET /api/secret: Fetches the list of locations with their coordinates.
 GET /api/entities/:id: Fetches details about an entity based on its ID.
 Open your browser and navigate to http://localhost:3000 to view the application.
 
-License
+## License
 This project is licensed under the ISC License.
-
-Feel free to adapt and expand upon this documentation.
