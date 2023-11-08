@@ -12,7 +12,7 @@ Installation
 Clone the repository:
 
 git clone https://github.com/usama7365/star-wars-entity-map.git
-Navigate to the project directory:
+## Navigate to the project directory:
 
 cd star-wars-rebellion-locator
 Install the dependencies: 
@@ -23,7 +23,7 @@ Start the development server:
 npm run server
 
 
-After running your server start your Frontend
+##After running your server start your Frontend
 
 cd Client-side
 
